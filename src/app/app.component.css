@@ -1,0 +1,23 @@
+.navbar-brand{
+    font-size: 20px;
+    color: white;
+    background-color: rgb(226, 142, 32);
+    padding: 10px;
+}
+
+.navbar {
+    padding: 20px;
+    
+}
+
+.container{
+    padding:130px;
+    padding-left: 20px;
+}
+
+footer{
+    
+    color: white;
+    padding: 30px;
+    text-align: center;
+}

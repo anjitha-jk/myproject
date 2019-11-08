@@ -1,0 +1,28 @@
+<p>middle works!</p>
+<div class="container">
+
+        <div class="row">
+            <div class="col-md-4" *ngFor="let item of myproduct" >
+            <div class="card" *ngIf="!item.availability"   style="width: 18rem;">
+              
+              <div class="card-body " >
+    
+                <img [src]="item.image_alt" class="card-img-top" alt="...">
+    
+                <h5 class="card-title">{{item.name}}</h5>
+                <h5 class="card-title">{{item.description}}</h5>
+                <h5 class="card-title">{{item.price}}</h5>
+                
+    
+                
+                <button class="btn btn-primary" [disabled]="item.availability">Add to Cart</button>
+              </div>
+            </div>
+            </div>
+            
+            
+          
+            
+            
+          </div>
+    </div>
